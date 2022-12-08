@@ -1,0 +1,20 @@
+﻿<Window x:Class="Sforzo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sforzo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="465" Width="806">
+    <Grid>
+
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="22,30,0,0" TextWrapping="Wrap" Text="Valore" VerticalAlignment="Top"/>
+        <TextBox x:Name="TexBox1" TextWrapping="Wrap" Width="217" Height="21" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,51,0,0"/>
+        <Button x:Name="buttonInsert" Click="insertButton_Click" Content="Insert" HorizontalAlignment="Left" Margin="21,89,0,0" VerticalAlignment="Top" Width="216"/>
+        <Button x:Name="buttonKeep" Click="keepButton_Click" Content="Keep" HorizontalAlignment="Left" Margin="21,124,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.53,0.984" Width="216"/>
+        <Button x:Name="buttonDiscard" Click="discard_Button_Click" Content="Discard" HorizontalAlignment="Left" Margin="21,164,0,0" VerticalAlignment="Top" Width="216"/>
+        <TextBox x:Name="textBoxArea1" AcceptsReturn="True" VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Margin="269,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" Height="356"/>
+        <TextBox x:Name="textBoxArea2" AcceptsReturn="True" VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Margin="537,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" Height="356"/>
+
+    </Grid>
+</Window>
